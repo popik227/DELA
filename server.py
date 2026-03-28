@@ -10,7 +10,7 @@ import os
 app = Flask(__name__)
 
 # ⚠️ Та же соль что и в generate_key.py и bike_booker.py
-SECRET_SALT = "BikeBo0ker_SecretKey_XJ9z#qlm"
+SECRET_SALT = "Mattellai"
 
 # Файл где хранятся активированные ключи (Railway сохраняет его между запусками)
 KEYS_FILE = "activated_keys.json"
